@@ -1,0 +1,41 @@
+{
+  "name": "robotapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "init-db": "ts-node src/infra/db.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svaratharajan-svs/Robot-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Svaratharajan-svs/Robot-apis/issues"
+  },
+  "homepage": "https://github.com/Svaratharajan-svs/Robot-apis#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.27",
+    "uuid": "^13.0.0"
+  }
+}
